@@ -1,0 +1,331 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-10 10:51:06
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-13 11:31:32
+*/
+@import url(applemedia.css);
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 44px;
+	background-color: #444;
+	font-size: 12px;
+	line-height: 44px;
+	position: fixed;
+	top:0;
+	left:0;
+}
+header .right{
+	text-decoration: none;
+	float:right;
+	color:#a8a8aa;
+}
+.dh{
+	width: 100%;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 44px;
+	background-color: rgba(0, 0, 0, 1);
+	font-size: 14px;
+	font-weight: 400;
+	position: fixed;
+	top:44px;
+	left:0;
+}
+.dh a{
+	  color: #fff;
+	  text-decoration: none;
+  }
+.dh li{
+	color: #fff;
+	text-decoration: none;
+}
+.dh a i{
+	font-style:normal;
+} 
+.dh a img{
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+} 
+.centent{
+	width: 100%;
+	height: auto;
+	margin-top: 88px;
+}
+.dh .list .topH{
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	margin-top: 18px;
+	transition: .5s;
+}
+.dh .topH.active1{
+	transform: rotate(45deg) translateY(5px);
+
+}
+.dh .bottomH.active2{
+	transform: rotate(-45deg) translateY(-5px);
+}
+.dh .list .bottomH{
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	margin-top:5px;
+	transition: .5s;
+}
+.dh .dhCard{
+	position: absolute;
+	top:44px;
+	left:0;
+	width: 100%;
+	height: 0;
+	resize: none;
+	background: #000;
+	overflow: hidden;
+}
+.dh .dhCard input{
+	width: 90%;
+	height: 36px;
+	margin:0 5% 20px;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.2);
+	border:none;
+}
+.dh .dhCard hr{
+	border:none;
+	height: 1px;
+	background: rgba(255,255,255,0.2);
+}
+.dh .dhCard ul{
+	width: 100%;
+	padding:0 5%;
+}
+.dh .dhCard ul li{
+	color:#fff;
+border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.centent ul li{
+	height: 580px;
+	list-style: none;
+	padding-top: 98px;
+}
+.centent ul li .back{
+	background-repeat: no-repeat;
+}
+.centent ul li.li3{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.centent ul li.li3{
+	color: #fff;
+}
+.centent ul li.li3 .three a{
+	color: #fff;
+}
+.centent ul li .one{
+	height: 60px;
+	font-size: 56px;
+	line-height: 60px;
+	text-align: center;
+}
+.centent ul li .two{
+	height: 31px;
+	font-size: 27px;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 1px;
+}
+.centent ul li .three{
+	height: 29px;
+	font-size: 21px;
+	line-height: 30px;
+	text-align: center;
+	margin: 9px auto;
+
+}
+.centent ul li .three a{
+	font-size: 18px;
+	text-decoration: none;
+	color: blue;
+	margin-right: 5px;
+}
+.centent ul li .three a:hover{
+	font-size: 18px;
+	text-decoration: underline;
+	color: blue;
+	margin-right: 5px;
+}
+.pro{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.pro ul li{
+	border-bottom: none;
+/* 	background-color: #000;  */
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 52px;
+}
+.pro ul li.pro4{
+	background-position: center 100%;
+	background-color: #f9f0eb;
+}
+.pro ul li.pro6{
+	background-position: center 100%;
+	background-color: #000;
+	color: #fff;
+}
+.pro ul li .one{
+	text-align: center;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	font-size: 40px;
+}
+.pro ul li .two{
+	width: 430px;
+	height: 52px;
+	padding-top: 4px;
+	font-size: 21px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 26px;
+	margin: 0 auto;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #d0d0d0;
+}
+footer dl{
+	width: 20%;
+	height: 300px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+footer  dl dd{
+	height: 30px;
+	margin-top: 10px;
+	color: #000;
+}
+footer dl dd dt{
+	height: 30px;
+	margin-top: 10px;
+	color: #777;
+}
+footer dl dd dt:hover{
+	color: #333;
+	text-decoration: underline;
+	cursor:pointer;
+}
+footer .bottom1{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 12px;
+}
+footer .bottom1 a{
+	color: blue;
+	text-decoration: none;
+}
+footer .bottom1 a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+footer .bottom2{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height:40px ;
+}
+footer .bottom2 a{
+	color: #777;
+	text-decoration: none;
+}
+footer .bottom2 a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+footer span{
+	color: #444;
+}
+footer hr{
+	width: 90%;
+	margin: 10px auto;
+}
+.bottom{
+	width: 90%;
+	margin:20px auto;
+	background-color: #fff;
+}
+.bottom .text{
+	border-bottom: 1px solid #666;
+	line-height: 40px;
+}
+.bottom .text .textCard{
+	width: 100%;
+	/*background: #000;*/
+	left:0;
+	top:-40px;
+	overflow: hidden;
+}
+.bottom .text .textCard ul{
+	width: 100%;
+	padding:0 5%;
+	display:none;
+}
+.bottom .text .textCard ul li{
+	color:#000;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.bottom .text .textCard.active3{
+	height: 400px;
+}
+.bottom .text i{
+	margin-right: 5%;
+	font-style: normal;
+	float: right;
+
+}
+.bottom .bottom1{
+	width: 90%;
+	margin: 0;
+	font-size: 12px;
+}
+.bottom .bottom1 a{
+	color: blue;
+	text-decoration: none;
+}
+.bottom .bottom1 a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.bottom .bottom2{
+	width: 90%;
+	font-size: 12px;
+}
+.bottom .bottom3{
+	width: 90%;
+	margin: 5px auto;
+	font-size: 12px;
+}
+.bottom .bottom3 a{ 	
+	color: #777;
+	text-decoration: none;
+}
+.bottom .bottom3 a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+wampserver

@@ -1,0 +1,249 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-10 10:54:13
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-12 15:25:23
+*/
+@media screen and (max-width:1600px){
+header{
+	padding: 0 186.5px;
+}
+.dh{
+	padding: 0 175px;
+}
+.dh a.list{
+	display: none;
+}
+.centent ul li{
+	height: 580px;
+	border-bottom:12px #fff solid;
+}
+.centent ul li.li1 .back{
+	background-image: url('../img/apple/d1.jpg');
+	background-size: contain;
+	width: 900px;
+	height: 400px;
+	margin: 100px auto;
+}
+.centent ul li.li2 .back{
+	width: 900px;
+	height: 400px;
+	margin: 100px auto;
+	background-image: url('../img/apple/d2.jpg');
+	background-size: contain;	
+}
+.centent ul li.li3{
+	margin: 100px auto;
+	background-image: url('../img/apple/d3.jpg');
+}
+.pro ul li{
+	width: 50%;
+	height: 580px;
+	border: 12px #fff solid;
+	float: left;
+}
+.pro ul li:nth-child(2n-1){
+	border-right: none;
+}
+.pro ul li.pro1{
+	background-image: url('../img/apple/sd4.jpg');
+	background-size: cover;
+}
+.pro ul li.pro2{
+	background-image: url('../img/apple/sd3.jpg');
+	background-size: cover;
+}
+.pro ul li.pro3{
+	background-image: url('../img/apple/sd5.jpg');
+	background-size: cover;
+}
+.pro ul li.pro4{
+	background-image: url('../img/apple/sd10.jpg');
+
+}
+.pro ul li.pro5{
+	background-image: url('../img/apple/sd1.jpg');
+	background-size: cover;
+}
+.pro ul li.pro6{
+	background-image: url('../img/apple/sd2.jpg');
+
+}
+.pro ul li.pro2 .one{
+	padding-top: 50%;
+	color: #fff;
+}
+.pro ul li.pro2 .two{
+	padding-top: 10%;
+	color: #fff;
+}
+.pro ul li.pro3 .one{
+	padding-top: 50%;
+	color: #fff;
+}
+.pro ul li.pro3 .two{
+	padding-top: 10%;
+	color: #fff;
+}
+
+footer{
+	display: block;
+}
+.bottom{
+	display: none;
+}
+
+}			
+
+
+
+@media screen and (max-width:1200px){
+header{
+	padding: 0 186.5px;
+}
+.dh{
+	padding: 0 175px;
+}
+.dh a.list{
+	display: none;
+}
+.centent ul li{
+	height: 580px;
+	border-bottom:12px #fff solid;
+}
+.centent ul li.li1 .back{
+	background-image: url('../img/apple/d1.jpg');
+	background-size: contain;
+	width: 900px;
+	height: 400px;
+	margin: 100px auto;
+}
+.centent ul li.li2 .back{
+	width: 900px;
+	height: 400px;
+	margin: 100px auto;
+	background-image: url('../img/apple/d2.jpg');
+	background-size: contain;	
+}
+.centent ul li.li3{
+	margin: 100px auto;
+	background-image: url('../img/apple/d3.jpg');
+}
+/* 这是6个广告盒子 */
+.pro ul li{
+	width: 50%;
+	height: 500px;
+	border: 12px #fff solid;
+	float: left;
+}
+.pro ul li:nth-child(2n-1){
+	border-right: none;
+}
+
+/* .pro ul li.pro1{
+	background-image: url('../img/apple/d4.jpg');
+} */
+.pro ul li.pro1{
+	background-image: url('../img/apple/sd4.jpg');
+	background-size: cover;
+}
+.pro ul li.pro2{
+	background-image: url('../img/apple/sd3.jpg');
+	background-size: cover;
+}
+.pro ul li.pro3{
+	background-image: url('../img/apple/sd5.jpg');
+	background-size: cover;
+}
+.pro ul li.pro4{
+	background-image: url('../img/apple/sd6.jpg');
+
+}
+.pro ul li.pro5{
+	background-image: url('../img/apple/sd1.jpg');
+	background-size: cover;
+}
+.pro ul li.pro6{
+	background-image: url('../img/apple/sd8.jpg');
+
+}
+
+}		
+@media screen and (max-width:992px){
+
+}
+@media screen and (max-width:768px){
+
+header{
+	padding: 0 18px;
+}
+.dh{
+	padding: 0 18px;
+}
+.dh a.list{
+	display: inline;
+}
+.dh a.text{
+	display: none;
+}
+.centent ul li{
+	height: 500px;
+	border-bottom:2px #fff solid;
+}
+.centent ul li.li1 .back{
+	background-image: url('../img/apple/x1.jpg');
+	background-size: contain;
+	width: 250px;
+	height: 500px;
+	margin: 100px auto;
+}
+.centent ul li.li2 .back{
+	width: 250px;
+	height: 500px;
+	margin: 100px auto;
+	background-image: url('../img/apple/x2.jpg');
+	background-size: contain;	
+}
+.centent ul li.li3{
+	margin: 100px auto;
+	background-image: url('../img/apple/x3.jpg');
+}
+/* 这是6个广告盒子 */
+.pro ul li{
+	width: 100%;
+	height: 500px;
+	border-top: 12px #fff solid;
+	border-right: none;
+	border-left: none;
+}
+.pro ul li.pro4{
+	background-image: url('../img/apple/x7.jpg');
+
+}
+.pro ul li.pro6{
+	background-image: url('../img/apple/sd8.jpg');
+
+}
+.pro ul li.pro2 .one{
+	padding-top: 45%;
+	color: #fff;
+}
+.pro ul li.pro2 .two{
+	padding-top: 10%;
+	color: #fff;
+}
+.pro ul li.pro3 .one{
+	padding-top: 45%;
+	color: #fff;
+}
+.pro ul li.pro3 .two{
+	padding-top: 10%;
+	color: #fff;
+}
+footer{
+	display: none;
+}
+.bottom{
+	display: block;
+}
+}
